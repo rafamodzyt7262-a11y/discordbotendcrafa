@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+temp_audio/
+*.mp3
+.venv/
+env/
+.env
+bot1/.env
+bot2/.env
+bot3/.env
+bot4/.env
