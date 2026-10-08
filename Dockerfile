@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+﻿FROM python:3.12-slim
 
 # Instalar FFmpeg, dependencias de audio, libopus y utilidades
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -16,7 +16,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir --pre -r requirements.txt
 
-# Copiar el código del proyecto
+# Copiar el cÃ³digo del proyecto
 COPY . .
 
 # Asegurar carpeta temporal de audio
